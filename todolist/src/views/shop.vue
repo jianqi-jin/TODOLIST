@@ -5,16 +5,16 @@
 </template>
 
 <script>
-import goodsData from ''
+import goodsData from '../lib/goodsData'
 
-  export default {
-    name: "shop",
-    data () {
-      return {
-        goodsData
-      }
+export default {
+  name: "shop",
+  data () {
+    return {
+      goodsData
     }
   }
+}
 </script>
 
 <style scoped>
